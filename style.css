@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background: rgba(0,0,0,0.2);
+}
+
+a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: rgba(255,255,255,0.2);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #00ffd0;
+  color: #000;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+}
+
+input, select {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+}
+
+.success {
+  padding: 50px;
+}
+
+footer {
+  background: rgba(0,0,0,0.3);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
